@@ -14,7 +14,7 @@ timezone: NZ
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://kromond.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -69,8 +69,9 @@ theme: tranquilpeak
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/kromond/kromond.github.io
-  branch: master
+  #repo: https://github.com/kromond/kromond.github.io
+  repo: hhttps://github.com/kromond/oldblog
+  branch: gh-pages
   message: "no particular message" 
 
 marked:
