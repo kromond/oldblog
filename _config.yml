@@ -12,7 +12,8 @@ timezone: NZ
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kromond.github.io/
+#url: http://kromond.github.io/
+url: https://kromond.github.io/oldblog/
 root: /
 # permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -70,7 +71,7 @@ theme: tranquilpeak
 deploy:
   type: git
   #repo: https://github.com/kromond/kromond.github.io
-  repo: hhttps://github.com/kromond/oldblog
+  repo: https://github.com/kromond/oldblog
   branch: gh-pages
   message: "no particular message" 
 
