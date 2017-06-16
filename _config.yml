@@ -13,8 +13,8 @@ timezone: NZ
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://kromond.github.io/
-url: https://kromond.github.io/oldblog/
-root: /
+url: https://kromond.github.io/oldblog
+root: /oldblog/
 # permalink: :year/:month/:day/:title/
 permalink_defaults:
 
