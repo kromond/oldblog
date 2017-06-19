@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="null">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Kromond">
+    <title>Sync - Kromond</title>
+    <meta name="author" content="~kromond">
+    <meta name="description" content="Kromond">
+    <link rel="icon" href="/oldblog/assets/images/ms-icon-70x70.png">
+    
+        <link rel="alternative" type="application/atom+xml" title="RSS" href="atom.xml">
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/oldblog/assets/css/style.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-64554420-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+
+    <body>
+        <div id="blog">
+            <header id="header" data-behavior="1">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="https://kromond.github.io/oldblog">Kromond</a>
+    </h1>
+    
+        <a class="header-right-picture" href="/oldblog/#about">
+            <img class="header-picture" src="/oldblog/assets/images/cloudtankIcon.jpg"/>
+        </a>
+    
+</header>
+            <nav id="sidebar" data-behavior="1">
+    
+    <div class="sidebar-profile">
+        <a href="/oldblog/">
+            
+            <img class="sidebar-profile-picture" src="/oldblog/assets/images/cloudtankIcon.jpg"/>
+            
+        </a>
+        <span class="sidebar-profile-name">~kromond</span>
+    </div>
+    
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/oldblog/oldblog/">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-anchor"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/oldblog/oldblog/all-categories">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-indent"></i>
+                    <span class="sidebar-button-desc">Categories</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/oldblog/oldblog/all-tags">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">Tags</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/oldblog/oldblog/all-archives">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-server"></i>
+                    <span class="sidebar-button-desc">Archives</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link st-search-show-outputs" href="/oldblog/oldblog/#search">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Search</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/oldblog/oldblog/#about">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-plug"></i>
+                    <span class="sidebar-button-desc">About me</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/oldblog/oldblog/atom.xml">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+            <div id="main" data-behavior="1">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <div class="post-header main-content-wrap">
+    
+        <h1 class="post-title" itemprop="headline">Sync</h1>
+    
+    <div class="post-meta">
+    <time  itemprop="datePublished" content="Wed Aug 26 2015 08:14:42 GMT+1200">
+        Aug 26, 2015
+    </time>
+    
+</div>
+</div>
+    
+    <div class="post-content markdown main-content-wrap" itemprop="articleBody">
+        <p>Synchronizing my two cameras was an issue.  Sync is very important in any stereo viewer.  Any differences between the images presented to the eyes is noticeably uncomfortable for the viewer.  The kinds of issues are temporal differences, color shifts, alignment particularly in the vertical dimension, and the frame edges where a single eye sees something the other does not</p>
+<p><img src="Frustum3.png" alt="Frustum"></p>
+<p>My cameras, the low budget Xiaomi Yi Action Camera, currently has no capacity for any kind of syncing: no timecode genloc or global shutter, no capacity to start multiple cameras or work multiple shutters at once outside of hard wiring a switch on to the contacts.  I may still do this.  One reason I haven’t is that it’s kind of invasive and I’d want it plugable and have not found a plug that seems suitable.  And when I go to add cameras to the array that’s more soldering and I’m not great at that.  Plus- the hard wired switch does nothing to sync the audio on my recorder to the camera array.</p>
+<p>For the moment I have been using two methods for sync.</p>
+<h4 id="Clapper"><a href="#Clapper" class="headerlink" title="Clapper"></a>Clapper</h4><p>My first approach is simply shoot at high frame rate (60fps or better) and use the ‘clapper’ technique.  Tried and true it works pretty well for both cams and the audio.  A solid block clapped against my phone works better than a hand clap visually, but in both cases the visual representation of the audio waveform is the main way to line up the clips.  Actually the clapper was not my first approach.  Since I was not considering audio initially, first I tried showing my camera a timecode app running on my phone and using this to visually line up the clips, but this wasn’t easy enough.</p>
+<p>60fps or better I think is a requirement.  I’ve not tested this to confirm, but I feel pretty certain 30fps will not have the temporal frequency to get good-enough alignment for this purpose, just based on my professional experience (15 years of stepping through footage at 24fps)</p>
+<h4 id="LTC-AKA-‘Lit-See’"><a href="#LTC-AKA-‘Lit-See’" class="headerlink" title="LTC AKA ‘Lit See’"></a>LTC AKA ‘Lit See’</h4><p>Another technique I started using is to pump in Linear timecode (LTC) from my phone to the two cameras and my recorder.  This seems to work well and so far seems pretty reliable.  LTC is a timecode signal encoded in audio format and dates back to the age of magnetic tapes.  The iphone app I’m using to generate the LTC signal is the <a href="https://itunes.apple.com/nz/app/timecode-toolbox/id493560306?mt=8" target="_blank" rel="external">Denecke TimeCode ToolBox app</a> (free).  </p>
+<p>Using one of those headphone splitters, I am taking the signal out of the phone and send one signal to the recorder in the LR channel 1/8” jack and send the other to a pair of ear buds which are gaff taped to where the mic is on the the xiaomi yi cam.  </p>
+<p><img src="syncimg.png" alt="cameraJig"></p>
+<h4 id="Editing-Stereo-Clips"><a href="#Editing-Stereo-Clips" class="headerlink" title="Editing Stereo Clips"></a>Editing Stereo Clips</h4><p>For editing my clips, I’ve moved through a few things.  I started wanting to <em>not</em> sign up for Adobe Creative Cloud.  I just don’t feel great about the subscription model.  I don’t want to pay them monthly forever in order to open the files I make today….   </p>
+<p>Initially I went with ffmpeg and worked up some basic python to cut my clips at a TC established visually.  This had the advantage of not re-encoding the data from the camera with the ffmpeg copy flags, but the workflow was a little clunky.  I also tried MPEG Streamclip, which has a viewer that could be used to find a sync frame and mark, and also the ability to save mp4 without re-encoding.  But both approaches didn’t support other editing operations which I knew I’d need eventually, so I kept exploring.</p>
+<p>I’m fortunate to have Nuke Studio through my job.  Nuke is great.  Nuke Studio adds the editing functions from foundry’s Hiero product into a single interface.  Unfortunately I couldn’t get it to work reliably with the export, and not for lack of trying.  I decided to put it aside for now and revisit later.</p>
+<p>Which means I gave into the Adobe CC and Premiere Pro CC is what I’ve been using to edit with lately.  I have to admit, it’s good and I’ve missed photoshop and Premiere is pretty nice looking now.  There are some great sync functions they’ve added, including one where a marker is placed on all the clips and then aligned using it and another where the audio waveform is analyzed on all the clips and aligned, similar to what Plural Eyes does.</p>
+<p>In Premiere, I am using the <a href="https://larryjordan.com/articles/premiere-pro-cc-multicam/" target="_blank" rel="external">multicamera workflow</a> and the sync by timecode option for my clips and audio with LTC, and it seems to recognize the LTC and aligns everything nicely.  Totally good enough for now.</p>
+<p>I’m hopeful a usb-wired or wireless control of these cameras can be found that starts and triggers the cameras with a good degree of tolerance, then I could put together a controller and possibly even get some test images back to confirm all cameras are working as expected before a capture. </p>
+<p>this gopro project has me optimistic that something might be possible there<br><a href="https://github.com/evilwombat/gopro-usb-tools" target="_blank" rel="external">https://github.com/evilwombat/gopro-usb-tools</a></p>
+
+        
+            
+        
+    </div>
+    <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/oldblog/tags/stereoCamera/">stereoCamera</a> <a class="tag tag--primary tag--small t-link" href="/oldblog/tags/xiaomiYi/">xiaomiYi</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/oldblog/2015/09/17/touchdesigner/"  data-tooltip="Touchdesigner">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/oldblog/2015/08/15/Field-Recording-Farmers-Market-LA/" data-tooltip="Field Recording-Farmers Market LA">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+</div>
+
+
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2017 ~kromond. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/oldblog/2015/09/17/touchdesigner/"  data-tooltip="Touchdesigner">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/oldblog/2015/08/15/Field-Recording-Farmers-Market-LA/" data-tooltip="Field Recording-Farmers Market LA">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+</div>
+
+
+                </div>
+            
+        </div>
+        <div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="/oldblog/assets/images/headshot.jpg"/>
+        
+            <h4 id="about-card-name">~kromond</h4>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>artist</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Wellington NZ
+            </h5>
+        
+    </div>
+</div>
+        <div id="cover" style="background-image:url('/oldblog/assets/images/treacle1.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/oldblog/assets/js/script.min.js"></script>
+<!--SCRIPTS END-->
+
+
+
+</html>
